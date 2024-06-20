@@ -1,4 +1,4 @@
-import  React,{useState} from 'react'
+import  React from 'react'
 import { useGetPokemonByNameQuery } from './services/pokemon'
 
 // import { useGetpostsByNameQuery }  from './services/posts'
@@ -23,11 +23,6 @@ emptyArr.push(data)
 console.log(dataParse, 'data parse')
 console.log(emptyArr, "empty arr")
 
-const [name, setName] = useState("")
-
-const addName =(data)=>{
-  setName(data.name)
-}
 
 
   // let dataFromApi = emptyArr.push(data)
